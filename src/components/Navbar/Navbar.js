@@ -24,11 +24,11 @@ const Navbar = ({ cart }) => {
       <Link to="/cart">
         <div className={styles.navbar__cart}>
           <h3 className={styles.cart__title}>Cart</h3>
-          <img
-            className={styles.cart__image}
-            src="https://image.flaticon.com/icons/svg/102/102276.svg"
-            alt="shopping cart"
-          />
+          {/*<img*/}
+          {/*  className={styles.cart__image}*/}
+          {/*  src="#"*/}
+          {/*  alt="shopping cart"*/}
+          {/*/>*/}
           <div className={styles.cart__counter}>{cartCount}</div>
         </div>
       </Link>
